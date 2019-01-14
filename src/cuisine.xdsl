@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Kuchnia">
+			<state id="polska" />
+			<state id="wloska" />
+			<state id="francuska" />
+			<state id="chinska" />
+			<state id="japonska" />
+			<state id="meksykanska" />
+			<probabilities>0.1666666666666667 0.1666666666666667 0.1666666666666667 0.1666666666666667 0.1666666666666667 0.1666666666666667</probabilities>
+		</cpt>
+		<cpt id="fasola">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 1 0</probabilities>
+		</cpt>
+		<cpt id="kapusta">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="makaron">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0 1 1 0 0 1 1 0 0 1 1 0</probabilities>
+		</cpt>
+		<cpt id="ryz">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0 1 0 1 0 1 1 0 1 0 1 0</probabilities>
+		</cpt>
+		<cpt id="grzybki_mun">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0 1 0 1 0 1 0.9 0.1 0.7 0.3 0 1</probabilities>
+		</cpt>
+		<cpt id="chili">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.3 0.7 0.2 0.8 0.2 0.8 0.05 0.95 0.05 0.95 0.9 0.09999999999999998</probabilities>
+		</cpt>
+		<cpt id="ryba">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0 1 0 1 0 1 0 1 1 0 0 1</probabilities>
+		</cpt>
+		<cpt id="pesto">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0 1 1 0 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="pomidory">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>1 0 1 0 0 1 0 1 0 1 0 1</probabilities>
+		</cpt>
+		<cpt id="sos_sojowy">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.3 0.7 0.2 0.8 0.2 0.8 0.95 0.05000000000000004 0.9 0.09999999999999998 0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="Ziemniaki">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="kasza">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="kukurydza">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="wieprzowina">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="wolowina">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="kurczak">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="kaczka">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="pieczarki">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="szpinak">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.6 0.4 0.9 0.09999999999999998 0.5 0.5 0.3 0.7 0.2 0.8 0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="suszone_pomidory">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.4 0.6 0.9 0.09999999999999998 0.7 0.3 0.1 0.9 0.1 0.9 0.1 0.9</probabilities>
+		</cpt>
+		<cpt id="smietana">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="maslo">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="ser_zolty">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="twarog">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="orzechy">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="og_rki">
+			<state id="tak" />
+			<state id="nie" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.8 0.2 0.6 0.4 0.5 0.5 0.4 0.6 0.5 0.5 0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="oliwa">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.3 0.7 0.9 0.09999999999999998 0.8 0.2 0.1 0.9 0.1 0.9 0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="owoce_morza">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="ser_bialy">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="jajka">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="marchewka">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="pietruszka">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="burak">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="cebula">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="oliwki">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="brokuly">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>Kuchnia</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.3.3705.0 ACADEMIC" name="Network2" faultnameformat="nodestate">
+			<node id="Kuchnia">
+				<name>Kuchnia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>648 387 849 493</position>
+			</node>
+			<node id="fasola">
+				<name>fasola</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>233 482 361 555</position>
+			</node>
+			<node id="kapusta">
+				<name>kapusta</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>358 511 467 566</position>
+			</node>
+			<node id="makaron">
+				<name>makaron</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>390 662 518 731</position>
+			</node>
+			<node id="ryz">
+				<name>ryz</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>534 729 652 786</position>
+			</node>
+			<node id="grzybki_mun">
+				<name>grzybki mun</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1005 186 1157 249</position>
+			</node>
+			<node id="chili">
+				<name>chili</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1135 288 1235 340</position>
+			</node>
+			<node id="ryba">
+				<name>ryba</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>419 238 528 288</position>
+			</node>
+			<node id="pesto">
+				<name>pesto</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1002 587 1091 639</position>
+			</node>
+			<node id="pomidory">
+				<name>pomidory</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>781 675 873 727</position>
+			</node>
+			<node id="sos_sojowy">
+				<name>sos sojowy</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>985 263 1121 333</position>
+			</node>
+			<node id="Ziemniaki">
+				<name>Ziemniaki</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>279 579 401 641</position>
+			</node>
+			<node id="kasza">
+				<name>kasza</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>408 597 499 641</position>
+			</node>
+			<node id="kukurydza">
+				<name>kukurydza</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>529 634 621 699</position>
+			</node>
+			<node id="wieprzowina">
+				<name>wieprzowina</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>338 414 450 489</position>
+			</node>
+			<node id="wolowina">
+				<name>wolowina</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>256 357 373 421</position>
+			</node>
+			<node id="kurczak">
+				<name>kurczak</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>361 318 465 379</position>
+			</node>
+			<node id="kaczka">
+				<name>kaczka</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>294 246 416 315</position>
+			</node>
+			<node id="pieczarki">
+				<name>pieczarki</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1139 486 1244 544</position>
+			</node>
+			<node id="szpinak">
+				<name>szpinak</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1147 378 1242 428</position>
+			</node>
+			<node id="suszone_pomidory">
+				<name>suszone pomidory</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1046 427 1147 488</position>
+			</node>
+			<node id="smietana">
+				<name>smietana</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1050 518 1133 570</position>
+			</node>
+			<node id="maslo">
+				<name>maslo</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1123 575 1203 632</position>
+			</node>
+			<node id="ser_zolty">
+				<name>ser zolty</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1033 651 1134 717</position>
+			</node>
+			<node id="twarog">
+				<name>twarog</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>884 707 972 774</position>
+			</node>
+			<node id="orzechy">
+				<name>orzechy</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>709 733 812 794</position>
+			</node>
+			<node id="og_rki">
+				<name>ogórki</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1046 355 1137 401</position>
+			</node>
+			<node id="oliwa">
+				<name>oliwa</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>643 675 751 721</position>
+			</node>
+			<node id="owoce_morza">
+				<name>owoce morza</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>412 152 509 222</position>
+			</node>
+			<node id="ser_bialy">
+				<name>ser bialy</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>908 644 1008 700</position>
+			</node>
+			<node id="jajka">
+				<name>jajka</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>515 181 630 234</position>
+			</node>
+			<node id="marchewka">
+				<name>marchewka</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>896 214 1005 265</position>
+			</node>
+			<node id="pietruszka">
+				<name>pietruszka</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>879 125 993 198</position>
+			</node>
+			<node id="burak">
+				<name>burak</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>792 165 883 223</position>
+			</node>
+			<node id="cebula">
+				<name>cebula</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>736 102 834 161</position>
+			</node>
+			<node id="oliwki">
+				<name>oliwki</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>670 160 765 217</position>
+			</node>
+			<node id="brokuly">
+				<name>brokuly</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>546 107 688 176</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
