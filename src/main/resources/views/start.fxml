@@ -5,13 +5,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ch.controllers.StartController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ch.controllers.StartController">
     <children>
-        <Label alignment="CENTER" layoutX="158.0" layoutY="134.0" prefHeight="17.0" prefWidth="285.0" text="Cuisine Helper">
+        <Label alignment="CENTER" layoutX="158.0" layoutY="134.0" prefHeight="17.0" prefWidth="285.0"
+               text="Cuisine Helper">
             <font>
-                <Font name="System Bold" size="36.0" />
+                <Font name="System Bold" size="36.0"/>
             </font>
         </Label>
-        <Button id="start" fx:id="startButton" layoutX="274.0" layoutY="265.0" mnemonicParsing="false" onAction="#handleStartAction" text="Start" />
+        <Button id="start" fx:id="startButton" layoutX="274.0" layoutY="265.0" mnemonicParsing="false"
+                onAction="#handleStartAction" text="Start"/>
     </children>
 </AnchorPane>

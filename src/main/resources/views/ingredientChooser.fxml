@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ch.controllers.IngredientChooserController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ch.controllers.IngredientChooserController">
     <children>
         <Label layoutX="25.0" layoutY="28.0" text="Cuisine Helper">
             <font>
-                <Font name="System Bold" size="24.0" />
+                <Font name="System Bold" size="24.0"/>
             </font>
         </Label>
         <Label layoutX="33.0" layoutY="105.0" text="Wybierz składniki:">
             <font>
-                <Font size="14.0" />
+                <Font size="14.0"/>
             </font>
         </Label>
-        <Button id="next" fx:id="getResultButton" layoutX="452.0" layoutY="306.0" mnemonicParsing="false" onAction="#handleStartAction" text="Pokaż kuchnie" />
+        <ListView id="listOfIngredients" fx:id="listOfIngredients" layoutX="44.0" layoutY="131.0" prefHeight="213.0"
+                  prefWidth="200.0"/>
+        <ChoiceBox id="ingredientsChoice" fx:id="ingredientsChoice" layoutX="300.0" layoutY="168.0" prefWidth="150.0"/>
+        <Button id="add" fx:id="addIngredient" layoutX="488.0" layoutY="168.0" mnemonicParsing="false"
+                onAction="#handleAddIngredientAction" text="Dodaj"/>
+        <Button id="next" fx:id="getResultButton" layoutX="452.0" layoutY="306.0" mnemonicParsing="false"
+                onAction="#handleStartAction" text="Pokaż kuchnie"/>
         <Label layoutX="324.0" layoutY="373.0" text="Cuisine Helper, Powered by Karol Kozak, Jakub Piekarz">
             <font>
-                <Font size="9.0" />
+                <Font size="9.0"/>
             </font>
         </Label>
     </children>

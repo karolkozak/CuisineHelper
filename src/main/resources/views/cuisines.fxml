@@ -19,7 +19,7 @@
                 <Font size="14.0"/>
             </font>
         </Label>
-        <ListView fx:id="equipmentProposal" layoutX="150.0" layoutY="132.0" prefHeight="192.0" prefWidth="300.0"/>
+        <ListView fx:id="suggestedCuisines" layoutX="150.0" layoutY="132.0" prefHeight="192.0" prefWidth="300.0"/>
         <Button id="next" fx:id="startAgain" layoutX="452.0" layoutY="333.0" mnemonicParsing="false"
                 onAction="#handleCuisinesAction" text="Zacznij od nowa"/>
         <Label layoutX="324.0" layoutY="373.0" text="Cuisine Helper, Powered by Karol Kozak, Jakub Piekarz">
