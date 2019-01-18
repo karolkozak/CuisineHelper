@@ -15,31 +15,31 @@
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 1 0</probabilities>
+			<probabilities>0.6 0.4 0.3 0.7 0.1 0.9 0.2 0.8 0.3 0.7 0.7 0.3</probabilities>
 		</cpt>
 		<cpt id="kapusta">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1</probabilities>
+			<probabilities>0.7 0.3 0.1 0.9 0 1 0.3 0.7 0.4 0.6 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="makaron">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0 1 1 0 0 1 1 0 0 1 1 0</probabilities>
+			<probabilities>0.2 0.8 0.9 0.09999999999999998 0.7 0.3 0.8 0.2 0.75 0.25 0.4 0.6</probabilities>
 		</cpt>
 		<cpt id="ryz">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0 1 0 1 0 1 1 0 1 0 1 0</probabilities>
+			<probabilities>0.15 0.85 0.1 0.9 0.05 0.95 0.85 0.15 0.9 0.09999999999999998 0.3 0.7</probabilities>
 		</cpt>
 		<cpt id="grzybki_mun">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0 1 0 1 0 1 0.9 0.1 0.7 0.3 0 1</probabilities>
+			<probabilities>0 1 0 1 0 1 0.8 0.2 0.6 0.4 0 1</probabilities>
 		</cpt>
 		<cpt id="chili">
 			<state id="tak" />
@@ -51,19 +51,19 @@
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0 1 0 1 0 1 0 1 1 0 0 1</probabilities>
+			<probabilities>0.3 0.7 0.5 0.5 0.6 0.4 0.9 0.09999999999999998 0.9 0.09999999999999998 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="pesto">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0 1 1 0 0 1 0 1 0 1 0 1</probabilities>
+			<probabilities>0.1 0.9 0.7 0.3 0.6 0.4 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="pomidory">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>1 0 1 0 0 1 0 1 0 1 0 1</probabilities>
+			<probabilities>0.7 0.3 0.9 0.09999999999999998 0.8 0.2 0.2 0.8000000000000002 0.1 0.9 0.4 0.6</probabilities>
 		</cpt>
 		<cpt id="sos_sojowy">
 			<state id="tak" />
@@ -75,49 +75,49 @@
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.9 0.09999999999999998 0.4 0.6 0.3 0.7 0.1 0.9 0 1 0.3 0.7</probabilities>
 		</cpt>
 		<cpt id="kasza">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.8 0.2 0.2 0.8 0.1 0.9 0 1 0 1 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="kukurydza">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.4 0.6 0.4 0.6 0.2 0.8 0.1 0.9 0.1 0.9 0.9 0.09999999999999998</probabilities>
 		</cpt>
 		<cpt id="wieprzowina">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.6 0.4 0.3 0.7 0.2 0.8 0.05 0.95 0.05 0.95 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="wolowina">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.4 0.6 0.6 0.4 0.7 0.3 0.3 0.7 0.35 0.65 0.8 0.2</probabilities>
 		</cpt>
 		<cpt id="kurczak">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.6 0.4 0.65 0.35 0.6 0.4 0.2 0.8 0.1 0.9 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="kaczka">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.6 0.4 0.4 0.6 0.35 0.65 0.4 0.6 0.3 0.7 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="pieczarki">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.4 0.6 0.5 0.5 0.3 0.7 0.1 0.9 0.1 0.9 0 1</probabilities>
 		</cpt>
 		<cpt id="szpinak">
 			<state id="tak" />
@@ -135,31 +135,31 @@
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.6 0.4 0.7 0.3 0.7 0.3 0.1 0.9 0 1 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="maslo">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.5 0.5 0.4 0.6 0.6 0.4 0 1 0 1 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="ser_zolty">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.3 0.7 0.4 0.6 0.6 0.4 0 1 0 1 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="twarog">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.3 0.7 0.2 0.8 0.2 0.8 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="orzechy">
 			<state id="tak" />
 			<state id="nie" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.3 0.7 0.5 0.5 0.4 0.6 0.3 0.7 0.4 0.6 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="og_rki">
 			<state id="tak" />
@@ -168,64 +168,64 @@
 			<probabilities>0.8 0.2 0.6 0.4 0.5 0.5 0.4 0.6 0.5 0.5 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="oliwa">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
 			<probabilities>0.3 0.7 0.9 0.09999999999999998 0.8 0.2 0.1 0.9 0.1 0.9 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="owoce_morza">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.05 0.95 0.5 0.5 0.6 0.4 0.8 0.2 0.9 0.09999999999999998 0 1</probabilities>
 		</cpt>
 		<cpt id="ser_bialy">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.4 0.6 0.4 0.6 0.6 0.4 0.2 0.8 0.1 0.9 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="jajka">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.6 0.4 0.5 0.5 0.6 0.4 0.2 0.8 0.2 0.8 0.3 0.7</probabilities>
 		</cpt>
 		<cpt id="marchewka">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.4 0.6 0.25 0.75 0.2 0.8 0.3 0.7 0.2 0.8 0.2 0.8</probabilities>
 		</cpt>
 		<cpt id="pietruszka">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.3 0.7 0.1 0.9 0.1 0.9 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="burak">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.3 0.7 0.15 0.85 0.1 0.9 0.2 0.8 0.2 0.8 0.1 0.9</probabilities>
 		</cpt>
 		<cpt id="cebula">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.8 0.2 0.4 0.6 0.3 0.7 0.1 0.9 0.1 0.9 0.4 0.6</probabilities>
 		</cpt>
 		<cpt id="oliwki">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.2 0.8 0.9 0.09999999999999998 0.7 0.3 0.1 0.9 0.1 0.9 0.4 0.6</probabilities>
 		</cpt>
 		<cpt id="brokuly">
-			<state id="tak" />
-			<state id="nie" />
+			<state id="State0" />
+			<state id="State1" />
 			<parents>Kuchnia</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0.2 0.8 0.3 0.7 0.2 0.8 0 1 0 1 0 1</probabilities>
 		</cpt>
 	</nodes>
 	<extensions>
