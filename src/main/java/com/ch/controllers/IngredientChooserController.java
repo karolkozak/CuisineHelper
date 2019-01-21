@@ -56,7 +56,6 @@ public class IngredientChooserController extends AbstractSceneController impleme
     public void handleStartAction(ActionEvent actionEvent) throws IOException {
         getResultButton.setDisable(true);
         addIngredient.setDisable(true);
-        ingredientNodesService.deleteIngredients(ingredientsChoice.getItems());
         nextScene(actionEvent, "cuisines");
     }
 }
